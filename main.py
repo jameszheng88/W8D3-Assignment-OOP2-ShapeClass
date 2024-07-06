@@ -11,8 +11,11 @@ for shape in shapes:
 # Instantiating Shape class:
 new_shape = Shape("green")
 
+# Current color for new_shape. Should print green
+print(new_shape.get_color())
+
 # Changing color of shape to purple
 new_shape.set_color("purple")
 
-# Printing new color
+# Printing new color. Should print purple
 print(new_shape.get_color())
